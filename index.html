@@ -1,0 +1,1059 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SowSmart — AI Crop Doctor for Mekong Delta Farmers</title>
+    <meta name="description" content="SowSmart: AI-powered crop disease detection for smallholder rice farmers in Vietnam and Cambodia. Snap. Diagnose. Save your harvest.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Floating Particles -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <span class="logo-icon-wrap"><i class="ti ti-plant-2"></i></span>
+                <span class="logo-text">SowSmart</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#problem">Problem</a></li>
+                <li><a href="#solution">Solution</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#journey">Journey</a></li>
+                <li><a href="#tech">Tech Stack</a></li>
+                <li><a href="#impact">Impact</a></li>
+                <li><a href="#story">Story</a></li>
+                <li><a href="#alternates">Alternates</a></li>
+                <li><a href="#pitch" class="nav-cta">Pitch Deck</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-mountains">
+            <div class="mountain mountain-1"></div>
+            <div class="mountain mountain-2"></div>
+            <div class="mountain mountain-3"></div>
+            <div class="grass-layer"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge animate-fade-up"><i class="ti ti-sparkles"></i> AI for Social Good · Mekong Delta</div>
+            <h1 class="hero-title animate-fade-up delay-1">
+                <span class="title-line">Snap.</span>
+                <span class="title-line accent">Diagnose.</span>
+                <span class="title-line">Save your harvest.</span>
+            </h1>
+            <p class="hero-subtitle animate-fade-up delay-2">
+                AI-powered crop disease detection for <strong>12.5 million</strong> smallholder rice farmers 
+                in Vietnam &amp; Cambodia — delivered through WhatsApp in under 60 seconds.
+            </p>
+            <div class="hero-actions animate-fade-up delay-3">
+                <a href="#solution" class="btn btn-primary"><i class="ti ti-arrow-down-right"></i> Explore the Solution</a>
+                <a href="#pitch" class="btn btn-outline"><i class="ti ti-presentation"></i> Read the Pitch</a>
+            </div>
+            <div class="hero-stats animate-fade-up delay-4">
+                <div class="stat">
+                    <span class="stat-number" data-count="12.5">0</span><span class="stat-suffix">M</span>
+                    <span class="stat-label">Farmers at Risk</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number" data-count="93">0</span><span class="stat-suffix">%</span>
+                    <span class="stat-label">AI Accuracy</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number" data-count="40">0</span><span class="stat-suffix">s</span>
+                    <span class="stat-label">Diagnosis Time</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number" data-count="0">0</span>
+                    <span class="stat-label">App Downloads Needed</span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-mouse">
+                <div class="scroll-dot"></div>
+            </div>
+            <span>Scroll to explore</span>
+        </div>
+    </section>
+
+    <!-- Problem Section -->
+    <section class="section section-problem" id="problem">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="ti ti-alert-triangle"></i> The Crisis</span>
+                <h2 class="section-title">A harvest lost to a <em>14-day wait</em></h2>
+                <p class="section-subtitle">In the rice bowl of Southeast Asia, farmers are fighting diseases with guesswork, bias, and chemicals they can't afford.</p>
+            </div>
+            <div class="problem-grid">
+                <div class="problem-card animate-slide-up">
+                    <div class="problem-icon-wrap">
+                        <i class="ti ti-hourglass-high"></i>
+                    </div>
+                    <h3>7–14 Days</h3>
+                    <p>Average time for an extension officer to visit a farm. By then, fungal infections spread across the entire paddy.</p>
+                </div>
+                <div class="problem-card animate-slide-up delay-1">
+                    <div class="problem-icon-wrap warn">
+                        <i class="ti ti-flask"></i>
+                    </div>
+                    <h3>2.5× Overuse</h3>
+                    <p>Farmers apply pesticides at 2.5× recommended rates based on advice from shop owners who profit from selling more chemicals.</p>
+                </div>
+                <div class="problem-card animate-slide-up delay-2">
+                    <div class="problem-icon-wrap danger">
+                        <i class="ti ti-trending-down-3"></i>
+                    </div>
+                    <h3>$3.2B Lost</h3>
+                    <p>Annual crop losses from rice blast, bacterial blight, and brown planthopper across the Mekong Delta region.</p>
+                </div>
+                <div class="problem-card animate-slide-up delay-3">
+                    <div class="problem-icon-wrap earth">
+                        <i class="ti ti-users-group"></i>
+                    </div>
+                    <h3>1 : 1,000</h3>
+                    <p>Ratio of extension officers to farmers in Vietnam's rural provinces. Cambodia's ratio is even worse: 1 : 2,800.</p>
+                </div>
+            </div>
+
+            <div class="workflow-compare animate-fade-up">
+                <h3 class="compare-title">Current Workflow vs. SowSmart</h3>
+                <div class="compare-container">
+                    <div class="compare-col compare-before">
+                        <div class="compare-header">
+                            <span class="compare-badge badge-before"><i class="ti ti-x"></i> Today</span>
+                        </div>
+                        <div class="compare-steps">
+                            <div class="compare-step">Farmer sees symptoms</div>
+                            <div class="compare-arrow"><i class="ti ti-chevron-down"></i></div>
+                            <div class="compare-step">Asks neighbor <span class="dim">(unreliable)</span></div>
+                            <div class="compare-arrow"><i class="ti ti-chevron-down"></i></div>
+                            <div class="compare-step">Rides 7km to pesticide shop</div>
+                            <div class="compare-arrow"><i class="ti ti-chevron-down"></i></div>
+                            <div class="compare-step">Shop owner diagnoses <span class="dim">(biased)</span></div>
+                            <div class="compare-arrow"><i class="ti ti-chevron-down"></i></div>
+                            <div class="compare-step">Buys expensive wrong chemical</div>
+                            <div class="compare-arrow"><i class="ti ti-chevron-down"></i></div>
+                            <div class="compare-step">Disease spreads for 14 days</div>
+                            <div class="compare-arrow"><i class="ti ti-chevron-down"></i></div>
+                            <div class="compare-step result-bad">30% crop loss + health issues</div>
+                        </div>
+                    </div>
+                    <div class="compare-divider">
+                        <span>VS</span>
+                    </div>
+                    <div class="compare-col compare-after">
+                        <div class="compare-header">
+                            <span class="compare-badge badge-after"><i class="ti ti-check"></i> SowSmart</span>
+                        </div>
+                        <div class="compare-steps">
+                            <div class="compare-step">Farmer sees symptoms</div>
+                            <div class="compare-arrow"><i class="ti ti-chevron-down"></i></div>
+                            <div class="compare-step">Sends photo via WhatsApp</div>
+                            <div class="compare-arrow"><i class="ti ti-chevron-down"></i></div>
+                            <div class="compare-step">AI diagnosis in &lt;1 minute</div>
+                            <div class="compare-arrow"><i class="ti ti-chevron-down"></i></div>
+                            <div class="compare-step">Treatment card in local language</div>
+                            <div class="compare-arrow"><i class="ti ti-chevron-down"></i></div>
+                            <div class="compare-step">Correct, affordable treatment</div>
+                            <div class="compare-arrow"><i class="ti ti-chevron-down"></i></div>
+                            <div class="compare-step">Follow-up at day 3, 7, 14</div>
+                            <div class="compare-arrow"><i class="ti ti-chevron-down"></i></div>
+                            <div class="compare-step result-good">$50–120 more income/season</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Target Users -->
+    <section class="section section-users" id="users">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="ti ti-focus-2"></i> Who We Serve</span>
+                <h2 class="section-title">Real people. Real constraints.</h2>
+            </div>
+            <div class="users-grid">
+                <div class="user-profile animate-slide-up">
+                    <div class="user-avatar-wrap">
+                        <i class="ti ti-plant"></i>
+                    </div>
+                    <h3>Primary: Smallholder Rice Farmers</h3>
+                    <div class="user-details">
+                        <div class="user-detail"><i class="ti ti-map-pin"></i><div><strong>Where:</strong> An Giang, Đồng Tháp (Vietnam); Battambang, Prey Veng (Cambodia)</div></div>
+                        <div class="user-detail"><i class="ti ti-ruler-2"></i><div><strong>Plot size:</strong> 0.3–2 hectares</div></div>
+                        <div class="user-detail"><i class="ti ti-coin"></i><div><strong>Income:</strong> $800–$2,200/year</div></div>
+                        <div class="user-detail"><i class="ti ti-calendar"></i><div><strong>Age:</strong> 35–65, ~45% women</div></div>
+                        <div class="user-detail"><i class="ti ti-device-mobile"></i><div><strong>Phone:</strong> Basic Android, WhatsApp/Zalo</div></div>
+                        <div class="user-detail"><i class="ti ti-book"></i><div><strong>Literacy:</strong> ~30% limited reading ability</div></div>
+                        <div class="user-detail"><i class="ti ti-wifi-off"></i><div><strong>Connectivity:</strong> 2G/3G, frequent outages</div></div>
+                        <div class="user-detail"><i class="ti ti-language"></i><div><strong>Language:</strong> Vietnamese, Khmer, Cham</div></div>
+                    </div>
+                </div>
+                <div class="user-profile animate-slide-up delay-1">
+                    <div class="user-avatar-wrap secondary">
+                        <i class="ti ti-clipboard-data"></i>
+                    </div>
+                    <h3>Secondary: Extension Officers & Co-op Leaders</h3>
+                    <div class="user-details">
+                        <div class="user-detail"><i class="ti ti-target"></i><div><strong>Need:</strong> Remote triage tools for field reports</div></div>
+                        <div class="user-detail"><i class="ti ti-layout-dashboard"></i><div><strong>Want:</strong> Disease outbreak dashboards</div></div>
+                        <div class="user-detail"><i class="ti ti-file-text"></i><div><strong>Current tools:</strong> Paper forms, phone calls</div></div>
+                        <div class="user-detail"><i class="ti ti-alert-circle"></i><div><strong>Pain point:</strong> Can't cover 1,000+ farmers</div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Section -->
+    <section class="section section-solution" id="solution">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="ti ti-bulb"></i> The Solution</span>
+                <h2 class="section-title">A crop doctor in every farmer's pocket</h2>
+                <p class="section-subtitle">SowSmart is a conversational AI crop doctor accessed through WhatsApp, Zalo, SMS, or a voice hotline.</p>
+            </div>
+            <div class="solution-flow animate-fade-up">
+                <div class="flow-step">
+                    <div class="flow-icon"><i class="ti ti-camera"></i></div>
+                    <div class="flow-content">
+                        <h4>Photo Sent</h4>
+                        <p>Farmer sends a photo of sick rice plant via WhatsApp</p>
+                    </div>
+                </div>
+                <div class="flow-connector"><i class="ti ti-chevron-right"></i></div>
+                <div class="flow-step">
+                    <div class="flow-icon"><i class="ti ti-brain"></i></div>
+                    <div class="flow-content">
+                        <h4>AI Analyzes</h4>
+                        <p>Vision model identifies disease with confidence score</p>
+                    </div>
+                </div>
+                <div class="flow-connector"><i class="ti ti-chevron-right"></i></div>
+                <div class="flow-step">
+                    <div class="flow-icon"><i class="ti ti-message-chatbot"></i></div>
+                    <div class="flow-content">
+                        <h4>Diagnosis Returned</h4>
+                        <p>Treatment plan in farmer's language with visual action card</p>
+                    </div>
+                </div>
+                <div class="flow-connector"><i class="ti ti-chevron-right"></i></div>
+                <div class="flow-step">
+                    <div class="flow-icon"><i class="ti ti-user-shield"></i></div>
+                    <div class="flow-content">
+                        <h4>Expert Review</h4>
+                        <p>Low confidence or high-risk cases route to human agronomist</p>
+                    </div>
+                </div>
+                <div class="flow-connector"><i class="ti ti-chevron-right"></i></div>
+                <div class="flow-step">
+                    <div class="flow-icon"><i class="ti ti-bell-ringing"></i></div>
+                    <div class="flow-content">
+                        <h4>Follow-Up</h4>
+                        <p>Reminders at 3, 7, 14 days to track recovery</p>
+                    </div>
+                </div>
+                <div class="flow-connector"><i class="ti ti-chevron-right"></i></div>
+                <div class="flow-step">
+                    <div class="flow-icon"><i class="ti ti-chart-infographic"></i></div>
+                    <div class="flow-content">
+                        <h4>Outbreak Data</h4>
+                        <p>Aggregated on admin dashboard for extension officers</p>
+                    </div>
+                </div>
+            </div>
+            <div class="solution-differentiators">
+                <h3>What makes SowSmart different</h3>
+                <div class="diff-grid">
+                    <div class="diff-item animate-slide-up">
+                        <span class="diff-icon"><i class="ti ti-download-off"></i></span>
+                        <span>No app download — works in WhatsApp/Zalo</span>
+                    </div>
+                    <div class="diff-item animate-slide-up delay-1">
+                        <span class="diff-icon"><i class="ti ti-microphone"></i></span>
+                        <span>Voice-first — describe symptoms by voice</span>
+                    </div>
+                    <div class="diff-item animate-slide-up delay-1">
+                        <span class="diff-icon"><i class="ti ti-wifi-off"></i></span>
+                        <span>Offline-capable — cached treatment cards</span>
+                    </div>
+                    <div class="diff-item animate-slide-up delay-2">
+                        <span class="diff-icon"><i class="ti ti-user-check"></i></span>
+                        <span>Human-in-the-loop — expert sign-off on high-risk advice</span>
+                    </div>
+                    <div class="diff-item animate-slide-up delay-2">
+                        <span class="diff-icon"><i class="ti ti-building-community"></i></span>
+                        <span>Cooperative integration — aggregate disease dashboards</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="section section-features" id="features">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="ti ti-stack-2"></i> Core Features</span>
+                <h2 class="section-title">Built for the field, not the office</h2>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card animate-slide-up">
+                    <div class="feature-icon-wrap"><i class="ti ti-scan"></i></div>
+                    <h3>Photo-Based Detection</h3>
+                    <p>Fine-tuned EfficientNet-B4 on 180,000+ labeled rice disease images. 93% accuracy across 15 diseases. Simple traffic-light confidence display.</p>
+                </div>
+                <div class="feature-card animate-slide-up delay-1">
+                    <div class="feature-icon-wrap voice"><i class="ti ti-microphone"></i></div>
+                    <h3>Voice Symptom Reporting</h3>
+                    <p>Call a local-rate number, describe symptoms in Vietnamese or Khmer. Whisper ASR transcribes, NLP extracts symptoms, returns diagnosis by voice or SMS.</p>
+                </div>
+                <div class="feature-card animate-slide-up delay-2">
+                    <div class="feature-icon-wrap treat"><i class="ti ti-file-analytics"></i></div>
+                    <h3>Treatment Action Cards</h3>
+                    <p>Visual infographics showing: what to buy, how much to apply, safety precautions, and organic/IPM alternatives. Designed for low-literacy users.</p>
+                </div>
+                <div class="feature-card animate-slide-up">
+                    <div class="feature-icon-wrap track"><i class="ti ti-refresh"></i></div>
+                    <h3>Follow-Up Tracking</h3>
+                    <p>Automated check-ins at 3, 7, 14 days. "Has the yellowing stopped? Send a new photo." Escalates to expert if recovery stalls.</p>
+                </div>
+                <div class="feature-card animate-slide-up delay-1">
+                    <div class="feature-icon-wrap expert"><i class="ti ti-user-star"></i></div>
+                    <h3>Human Expert Escalation</h3>
+                    <p>Confidence below 75%? High economic impact disease? Case routes to a verified agronomist. Target response: &lt;4 hours during growing season.</p>
+                </div>
+                <div class="feature-card animate-slide-up delay-2">
+                    <div class="feature-icon-wrap map"><i class="ti ti-map-2"></i></div>
+                    <h3>Outbreak Heatmap Dashboard</h3>
+                    <p>Real-time map of disease reports for extension officers. Filter by disease, severity, commune. Early warning alerts when density exceeds thresholds.</p>
+                </div>
+                <div class="feature-card animate-slide-up">
+                    <div class="feature-icon-wrap weather"><i class="ti ti-cloud-storm"></i></div>
+                    <h3>Weather-Integrated Alerts</h3>
+                    <p>Proactive alerts: "High humidity forecast. Rice blast risk is HIGH. Inspect your paddies." Seasonal advisories based on disease-weather correlations.</p>
+                </div>
+                <div class="feature-card animate-slide-up delay-1">
+                    <div class="feature-icon-wrap community"><i class="ti ti-heart-handshake"></i></div>
+                    <h3>Community Knowledge Feed</h3>
+                    <p>Anonymized success stories from nearby farmers. Builds social proof and trust. Moderated by cooperative leaders to prevent misinformation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- User Journey -->
+    <section class="section section-journey" id="journey">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="ti ti-route"></i> User Journey</span>
+                <h2 class="section-title">Meet Lan — rice farmer, An Giang Province</h2>
+                <p class="section-subtitle">52 years old, farms 0.8 hectares of jasmine rice, uses Zalo to call her daughter in Ho Chi Minh City. Xiaomi Redmi 9A, $1.20/month data plan.</p>
+            </div>
+            <div class="journey-timeline">
+                <div class="timeline-line"></div>
+                <div class="journey-step animate-slide-left">
+                    <div class="step-number">1</div>
+                    <div class="step-card">
+                        <div class="step-channel"><i class="ti ti-map-pin"></i> In-person + Zalo</div>
+                        <h4>Discovery</h4>
+                        <p>Cooperative leader introduces SowSmart at a monthly meeting. Lan scans a QR code — opens a Zalo conversation. No app download.</p>
+                    </div>
+                </div>
+                <div class="journey-step animate-slide-right">
+                    <div class="step-number">2</div>
+                    <div class="step-card">
+                        <div class="step-channel"><i class="ti ti-message-2"></i> Zalo</div>
+                        <h4>Registration</h4>
+                        <p>Bot asks name, commune, crop type. She taps pre-set buttons — no typing needed. Language auto-detected as Vietnamese.</p>
+                    </div>
+                </div>
+                <div class="journey-step animate-slide-left">
+                    <div class="step-number">3</div>
+                    <div class="step-card">
+                        <div class="step-channel"><i class="ti ti-camera"></i> Zalo</div>
+                        <h4>First Use</h4>
+                        <p>Two weeks later — brown spots on rice leaves. Opens Zalo chat, taps camera, sends 2 photos of affected leaves.</p>
+                    </div>
+                </div>
+                <div class="journey-step animate-slide-right">
+                    <div class="step-number">4</div>
+                    <div class="step-card">
+                        <div class="step-channel"><i class="ti ti-brain"></i> Zalo</div>
+                        <h4>AI Diagnosis — 12 seconds</h4>
+                        <p class="diagnosis-result"><i class="ti ti-circle-check"></i> Kết quả: Bệnh đạo ôn (Rice Blast) — Độ tin cậy: 89%</p>
+                        <p>Followed by a visual action card with treatment steps.</p>
+                    </div>
+                </div>
+                <div class="journey-step animate-slide-left">
+                    <div class="step-number">5</div>
+                    <div class="step-card">
+                        <div class="step-channel"><i class="ti ti-file-analytics"></i> Zalo</div>
+                        <h4>Treatment Guidance</h4>
+                        <p>Action card shows: Tricyclazole 40WP at 0.5 kg/ha. Available at the shop 2km away. Apply early morning. Wear gloves and mask.</p>
+                    </div>
+                </div>
+                <div class="journey-step animate-slide-right">
+                    <div class="step-number">6</div>
+                    <div class="step-card">
+                        <div class="step-channel"><i class="ti ti-coins"></i> Zalo</div>
+                        <h4>Affordability Check</h4>
+                        <p>Lan asks "Giá bao nhiêu?" — Bot: "~45,000 VND ($1.80) for your plot. Cooperative bulk stock: 35,000 VND."</p>
+                    </div>
+                </div>
+                <div class="journey-step animate-slide-left">
+                    <div class="step-number">7</div>
+                    <div class="step-card">
+                        <div class="step-channel"><i class="ti ti-bell-ringing"></i> Zalo</div>
+                        <h4>Follow-Up (Day 3)</h4>
+                        <p>"Chị Lan, bệnh đạo ôn đã bớt chưa? Gửi ảnh mới nhé." Lan sends a new photo. AI confirms improvement.</p>
+                    </div>
+                </div>
+                <div class="journey-step animate-slide-right">
+                    <div class="step-number">8</div>
+                    <div class="step-card">
+                        <div class="step-channel"><i class="ti ti-chart-bar"></i> Zalo</div>
+                        <h4>Season Summary</h4>
+                        <p>At harvest: 2 diagnoses, both treated. Estimated yield loss prevented: 180 kg (~$72 revenue saved).</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Stack -->
+    <section class="section section-tech" id="tech">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="ti ti-code"></i> Architecture</span>
+                <h2 class="section-title">Built lean, deployed cheap</h2>
+                <p class="section-subtitle">Full-stack architecture running on a $40–80/month VPS. No enterprise bloat.</p>
+            </div>
+            <div class="arch-diagram animate-fade-up">
+                <div class="arch-layer arch-channels">
+                    <h4><i class="ti ti-device-mobile"></i> User Channels</h4>
+                    <div class="arch-items">
+                        <span class="arch-chip"><i class="ti ti-brand-whatsapp"></i> WhatsApp</span>
+                        <span class="arch-chip"><i class="ti ti-message-circle"></i> Zalo</span>
+                        <span class="arch-chip"><i class="ti ti-message-dots"></i> SMS (Twilio)</span>
+                        <span class="arch-chip"><i class="ti ti-phone"></i> Voice (Twilio)</span>
+                        <span class="arch-chip"><i class="ti ti-browser"></i> PWA</span>
+                    </div>
+                </div>
+                <div class="arch-arrow"><i class="ti ti-chevrons-down"></i></div>
+                <div class="arch-layer arch-gateway">
+                    <h4><i class="ti ti-shield"></i> API Gateway</h4>
+                    <div class="arch-items">
+                        <span class="arch-chip">Nginx</span>
+                        <span class="arch-chip">Webhooks</span>
+                        <span class="arch-chip">Rate Limiting</span>
+                    </div>
+                </div>
+                <div class="arch-arrow"><i class="ti ti-chevrons-down"></i></div>
+                <div class="arch-layer arch-services">
+                    <h4><i class="ti ti-cpu"></i> Microservices</h4>
+                    <div class="arch-items">
+                        <span class="arch-chip accent">Message Router (FastAPI)</span>
+                        <span class="arch-chip accent">Vision Service (EfficientNet-B4)</span>
+                        <span class="arch-chip accent">NLP / Voice (PhoBERT + Whisper)</span>
+                    </div>
+                </div>
+                <div class="arch-arrow"><i class="ti ti-chevrons-down"></i></div>
+                <div class="arch-layer arch-core">
+                    <h4><i class="ti ti-settings-automation"></i> Core Orchestrator</h4>
+                    <div class="arch-items">
+                        <span class="arch-chip">Business Logic</span>
+                        <span class="arch-chip">Escalation Engine</span>
+                        <span class="arch-chip">Follow-up Scheduler</span>
+                        <span class="arch-chip">RAG Pipeline (LangChain + ChromaDB)</span>
+                    </div>
+                </div>
+                <div class="arch-arrow"><i class="ti ti-chevrons-down"></i></div>
+                <div class="arch-layer arch-data">
+                    <h4><i class="ti ti-database"></i> Data Layer</h4>
+                    <div class="arch-items">
+                        <span class="arch-chip data">PostgreSQL + PostGIS</span>
+                        <span class="arch-chip data">Redis + Celery</span>
+                        <span class="arch-chip data">MinIO (S3)</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tech-table-wrap animate-fade-up">
+                <h3>Full Stack Breakdown</h3>
+                <table class="tech-table">
+                    <thead>
+                        <tr><th>Layer</th><th>Technology</th><th>Why</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Frontend (Admin)</td><td>React + Leaflet.js</td><td>Lightweight dashboard; Leaflet for outbreak maps</td></tr>
+                        <tr><td>Frontend (Farmer)</td><td>WhatsApp / Zalo / SMS / Voice</td><td>Zero friction — no custom app needed</td></tr>
+                        <tr><td>Offline PWA</td><td>Vanilla JS + Service Worker</td><td>Caches treatment cards; &lt;500 KB</td></tr>
+                        <tr><td>Backend</td><td>Python 3.11 + FastAPI</td><td>Async, fast, excellent ML support</td></tr>
+                        <tr><td>AI — Vision</td><td>EfficientNet-B4 (TorchServe)</td><td>93.2% accuracy; 20MB quantized model</td></tr>
+                        <tr><td>AI — NLP</td><td>PhoBERT + Multilingual BERT</td><td>Vietnamese + Khmer symptom extraction</td></tr>
+                        <tr><td>AI — ASR</td><td>Whisper (fine-tuned)</td><td>Southern Vietnamese + Khmer dialects</td></tr>
+                        <tr><td>AI — Advisory</td><td>LangChain + ChromaDB</td><td>RAG pipeline grounded in IRRI data</td></tr>
+                        <tr><td>Database</td><td>PostgreSQL 15 + PostGIS</td><td>Geospatial queries; robust, free</td></tr>
+                        <tr><td>Deployment</td><td>Docker + DigitalOcean</td><td>$40–80/month for MVP</td></tr>
+                        <tr><td>Monitoring</td><td>Sentry + Prometheus + Grafana</td><td>Error tracking, model performance</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Safety & Ethics -->
+    <section class="section section-safety" id="safety">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="ti ti-shield-lock"></i> Safety & Ethics</span>
+                <h2 class="section-title">AI that assists, never overrules</h2>
+            </div>
+            <div class="safety-grid">
+                <div class="safety-card animate-slide-up">
+                    <div class="safety-icon-wrap shield">
+                        <i class="ti ti-shield-check"></i>
+                    </div>
+                    <h3>Hard Guardrails</h3>
+                    <ul>
+                        <li>Never recommends restricted/banned pesticides</li>
+                        <li>Never autonomously advises crop destruction</li>
+                        <li>Actions &gt;$20 cost require expert sign-off</li>
+                    </ul>
+                </div>
+                <div class="safety-card animate-slide-up delay-1">
+                    <div class="safety-icon-wrap lock">
+                        <i class="ti ti-lock"></i>
+                    </div>
+                    <h3>Privacy First</h3>
+                    <ul>
+                        <li>Phone numbers SHA-256 hashed</li>
+                        <li>Commune-level location only</li>
+                        <li>No data sold to agrochemical companies</li>
+                        <li>Compliant with Vietnam's Data Protection Decree</li>
+                    </ul>
+                </div>
+                <div class="safety-card animate-slide-up delay-2">
+                    <div class="safety-icon-wrap human">
+                        <i class="ti ti-user-check"></i>
+                    </div>
+                    <h3>Human-in-the-Loop</h3>
+                    <ul>
+                        <li>Auto-escalation when confidence &lt;75%</li>
+                        <li>Expert review SLA: 4 hours in season</li>
+                        <li>Farmer can always request a human</li>
+                    </ul>
+                </div>
+                <div class="safety-card animate-slide-up delay-3">
+                    <div class="safety-icon-wrap balance">
+                        <i class="ti ti-scale"></i>
+                    </div>
+                    <h3>Bias Monitoring</h3>
+                    <ul>
+                        <li>Accuracy tracked by province, age, phone model</li>
+                        <li>Retrain if accuracy drops below 85% for any group</li>
+                        <li>Generic chemical names only — no brand promotion</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Multilingual & Offline -->
+    <section class="section section-access" id="access">
+        <div class="container">
+            <div class="two-col-grid">
+                <div class="access-block animate-slide-up">
+                    <span class="section-tag"><i class="ti ti-world"></i> Multilingual</span>
+                    <h2>Every language. Every literacy level.</h2>
+                    <div class="lang-list">
+                        <div class="lang-item">
+                            <span class="lang-icon-wrap vn"><span>VN</span></span>
+                            <div>
+                                <strong>Vietnamese (Southern)</strong>
+                                <p>PhoBERT NLP + fine-tuned Whisper ASR</p>
+                            </div>
+                        </div>
+                        <div class="lang-item">
+                            <span class="lang-icon-wrap kh"><span>KH</span></span>
+                            <div>
+                                <strong>Khmer</strong>
+                                <p>Multilingual BERT + Khmer tokenizer + Whisper</p>
+                            </div>
+                        </div>
+                        <div class="lang-item">
+                            <span class="lang-icon-wrap voice"><span><i class="ti ti-language"></i></span></span>
+                            <div>
+                                <strong>Cham (Voice only)</strong>
+                                <p>Whisper fine-tuned + community translators</p>
+                            </div>
+                        </div>
+                        <div class="lang-item">
+                            <span class="lang-icon-wrap visual"><span><i class="ti ti-eye"></i></span></span>
+                            <div>
+                                <strong>Visual / Low-literacy</strong>
+                                <p>Pictograms, color coding, voice notes, tap-based feedback</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="access-block animate-slide-up delay-1">
+                    <span class="section-tag"><i class="ti ti-cloud-off"></i> Offline & Low-Connectivity</span>
+                    <h2>Works when the network doesn't.</h2>
+                    <div class="offline-list">
+                        <div class="offline-item">
+                            <span class="offline-icon-wrap mobile"><i class="ti ti-device-mobile"></i></span>
+                            <div>
+                                <strong>Offline PWA</strong>
+                                <p>15 most common treatment cards cached locally in IndexedDB</p>
+                            </div>
+                        </div>
+                        <div class="offline-item">
+                            <span class="offline-icon-wrap compress"><i class="ti ti-file-zip"></i></span>
+                            <div>
+                                <strong>Compressed images</strong>
+                                <p>Client-side compression to &lt;200KB. Works on 2G.</p>
+                            </div>
+                        </div>
+                        <div class="offline-item">
+                            <span class="offline-icon-wrap sms"><i class="ti ti-mail-forward"></i></span>
+                            <div>
+                                <strong>SMS Fallback</strong>
+                                <p>Auto-retry via SMS if WhatsApp fails within 60 seconds</p>
+                            </div>
+                        </div>
+                        <div class="offline-item">
+                            <span class="offline-icon-wrap phone"><i class="ti ti-phone-call"></i></span>
+                            <div>
+                                <strong>USSD Menu (Cambodia)</strong>
+                                <p>Dial *123# for symptom checklist on non-smartphones</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Impact Metrics -->
+    <section class="section section-impact" id="impact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="ti ti-chart-arrows-vertical"></i> Impact Metrics</span>
+                <h2 class="section-title">Measurable change in 6–12 months</h2>
+            </div>
+            <div class="metrics-grid">
+                <div class="metric-card animate-scale">
+                    <div class="metric-icon-wrap"><i class="ti ti-users-group"></i></div>
+                    <div class="metric-value" data-count="2000">0</div>
+                    <div class="metric-label">Farmers Registered</div>
+                    <div class="metric-sub">across pilot communes</div>
+                </div>
+                <div class="metric-card animate-scale delay-1">
+                    <div class="metric-icon-wrap"><i class="ti ti-target-arrow"></i></div>
+                    <div class="metric-value">88<span class="metric-unit">%+</span></div>
+                    <div class="metric-label">Diagnostic Accuracy</div>
+                    <div class="metric-sub">field-validated by experts</div>
+                </div>
+                <div class="metric-card animate-scale delay-2">
+                    <div class="metric-icon-wrap"><i class="ti ti-clock-bolt"></i></div>
+                    <div class="metric-value">&lt;2<span class="metric-unit">min</span></div>
+                    <div class="metric-label">Time to Diagnosis</div>
+                    <div class="metric-sub">vs. 7–14 days currently</div>
+                </div>
+                <div class="metric-card animate-scale">
+                    <div class="metric-icon-wrap"><i class="ti ti-trending-up"></i></div>
+                    <div class="metric-value">15–25<span class="metric-unit">%</span></div>
+                    <div class="metric-label">Yield Loss Reduction</div>
+                    <div class="metric-sub">vs. control group</div>
+                </div>
+                <div class="metric-card animate-scale delay-1">
+                    <div class="metric-icon-wrap"><i class="ti ti-coin"></i></div>
+                    <div class="metric-value">$50–120</div>
+                    <div class="metric-label">Revenue Saved / Farmer</div>
+                    <div class="metric-sub">per growing season</div>
+                </div>
+                <div class="metric-card animate-scale delay-2">
+                    <div class="metric-icon-wrap"><i class="ti ti-leaf"></i></div>
+                    <div class="metric-value">20–30<span class="metric-unit">%</span></div>
+                    <div class="metric-label">Pesticide Reduction</div>
+                    <div class="metric-sub">in chemical application</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pilot Plan -->
+    <section class="section section-pilot" id="pilot">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="ti ti-rocket"></i> Pilot Plan</span>
+                <h2 class="section-title">From prototype to 2,000 farmers</h2>
+            </div>
+            <div class="pilot-phases">
+                <div class="pilot-phase animate-slide-up">
+                    <div class="phase-header">
+                        <span class="phase-badge">Phase 0</span>
+                        <span class="phase-timeline">Weeks 1–4</span>
+                    </div>
+                    <h3>Ground Truth Collection</h3>
+                    <ul>
+                        <li>Partner with IRRI Vietnam &amp; CEDAC Cambodia</li>
+                        <li>Photograph 5,000+ disease samples across 5 provinces</li>
+                        <li>Agronomists label and validate dataset</li>
+                        <li>20 farmer interviews for UX refinement</li>
+                    </ul>
+                </div>
+                <div class="pilot-phase animate-slide-up delay-1">
+                    <div class="phase-header">
+                        <span class="phase-badge">Phase 1</span>
+                        <span class="phase-timeline">Weeks 5–10</span>
+                    </div>
+                    <h3>Closed Beta — 100 Farmers</h3>
+                    <ul>
+                        <li>2 communes in An Giang Province, Vietnam</li>
+                        <li>Zalo-only, photo-based diagnosis</li>
+                        <li>Manual expert escalation</li>
+                        <li>Target: &gt;80% accuracy, &gt;50% treatment adoption</li>
+                    </ul>
+                </div>
+                <div class="pilot-phase animate-slide-up delay-2">
+                    <div class="phase-header">
+                        <span class="phase-badge">Phase 2</span>
+                        <span class="phase-timeline">Weeks 11–20</span>
+                    </div>
+                    <h3>Expanded Pilot — 500 Farmers</h3>
+                    <ul>
+                        <li>3 provinces (2 Vietnam, 1 Cambodia)</li>
+                        <li>Add WhatsApp, SMS, voice channels</li>
+                        <li>Weather alerts + cooperative dashboard</li>
+                        <li>Target: &gt;70% repeat usage</li>
+                    </ul>
+                </div>
+                <div class="pilot-phase animate-slide-up delay-3">
+                    <div class="phase-header">
+                        <span class="phase-badge">Phase 3</span>
+                        <span class="phase-timeline">Months 6–12</span>
+                    </div>
+                    <h3>Scale & Measure — 2,000 Farmers</h3>
+                    <ul>
+                        <li>Harvest-season impact measurement</li>
+                        <li>Publish results with IRRI</li>
+                        <li>Apply for USAID / ADB / Gates follow-on funding</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Story Section -->
+    <section class="section section-story" id="story">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="ti ti-heart"></i> Human Impact</span>
+                <h2 class="section-title">Lan's Story</h2>
+            </div>
+            <div class="story-container">
+                <div class="story-panel story-before animate-fade-up">
+                    <div class="story-badge badge-before"><i class="ti ti-circle-x"></i> Before SowSmart</div>
+                    <div class="story-content">
+                        <p>Nguyễn Thị Lan, 52, wakes at 5:00 AM in Phú Tân commune. She walks to her 0.8-hectare paddy and sees brown, brittle leaves on three rows near the canal.</p>
+                        <p>She asks her neighbor — he says "leaf burn." She rides her motorbike 7km to the pesticide shop. The owner sells her a broad-spectrum fungicide for <strong>120,000 VND</strong> — a week's food budget.</p>
+                        <p>She sprays the entire field <em>without gloves</em>. A week later, spots have spread. It wasn't rice blast — it was <strong>bacterial leaf blight</strong>, requiring completely different treatment.</p>
+                        <p>The extension officer visits on day 12. By then, <strong>30% of her crop is damaged</strong>.</p>
+                        <div class="story-stat story-stat-bad">
+                            <div class="story-stat-icon"><i class="ti ti-arrow-down"></i></div>
+                            <div class="story-stat-number">-240 kg</div>
+                            <div class="story-stat-label">Lost harvest — worth $96, nearly 10% of annual income</div>
+                        </div>
+                        <p class="story-footnote">She also develops a rash on her forearms from pesticide exposure.</p>
+                    </div>
+                </div>
+                <div class="story-divider">
+                    <div class="story-divider-line"></div>
+                    <span class="story-divider-text"><i class="ti ti-arrow-big-down-lines"></i> Next Season</span>
+                    <div class="story-divider-line"></div>
+                </div>
+                <div class="story-panel story-after animate-fade-up delay-1">
+                    <div class="story-badge badge-after"><i class="ti ti-circle-check"></i> After SowSmart</div>
+                    <div class="story-content">
+                        <p>Same farm. Brown spots again — this time on five rows near the northern edge.</p>
+                        <p>Lan opens Zalo, sends two photos and a voice note: <em>"Lá bị nâu, bắt đầu từ đầu lá, mấy hàng gần mương."</em></p>
+                        <p><strong>Forty seconds later</strong>, she gets a diagnosis: Bacterial Leaf Blight, 87% confidence. The action card tells her to drain the paddy for 3–5 days and apply Bismerthiazol 20WP.</p>
+                        <p>Total cost: <strong>38,000 VND ($1.52)</strong> — less than a third of what she spent last season on the wrong chemical.</p>
+                        <p>Day 3: SowSmart follows up. She sends a new photo. AI confirms improvement.</p>
+                        <div class="story-stat story-stat-good">
+                            <div class="story-stat-icon"><i class="ti ti-arrow-up"></i></div>
+                            <div class="story-stat-number">+1.1 tonnes/ha</div>
+                            <div class="story-stat-label">Yield increase — worth $440 in additional revenue</div>
+                        </div>
+                        <p>Lan tells three women in her cooperative. By the next season, <strong>47 farmers</strong> in her commune are using SowSmart.</p>
+                        <p class="story-footnote"><em>She still has the rash scars from last year. She doesn't plan to get new ones.</em></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Demo Questions -->
+    <section class="section section-demo" id="demo">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="ti ti-message-chatbot"></i> Live Demo</span>
+                <h2 class="section-title">What farmers ask SowSmart</h2>
+                <p class="section-subtitle">Real questions. Real answers. Real impact.</p>
+            </div>
+            <div class="demo-grid">
+                <div class="demo-card animate-slide-up">
+                    <div class="demo-input">
+                        <span class="demo-type"><i class="ti ti-camera"></i> Photo</span>
+                        <p>[Photo of brown-spotted leaf]</p>
+                    </div>
+                    <div class="demo-output">
+                        <span class="demo-ai"><i class="ti ti-brain"></i> SowSmart</span>
+                        <p>"This looks like <strong>Rice Blast</strong> (Bệnh đạo ôn). Here's what to do:" → [Action Card with treatment steps, dosage, and safety gear]</p>
+                    </div>
+                </div>
+                <div class="demo-card animate-slide-up delay-1">
+                    <div class="demo-input">
+                        <span class="demo-type"><i class="ti ti-message"></i> Text</span>
+                        <p>"Lá lúa tôi bị vàng và cuốn lại"<br><span class="demo-translate">My rice leaves are yellow and curling</span></p>
+                    </div>
+                    <div class="demo-output">
+                        <span class="demo-ai"><i class="ti ti-brain"></i> SowSmart</span>
+                        <p>"It could be a few things. Can you send a <strong>close-up photo</strong> of the affected leaves so I can give you an accurate answer?"</p>
+                    </div>
+                </div>
+                <div class="demo-card animate-slide-up delay-2">
+                    <div class="demo-input">
+                        <span class="demo-type"><i class="ti ti-microphone"></i> Voice (Khmer)</span>
+                        <p>"My rice has small brown insects"</p>
+                    </div>
+                    <div class="demo-output">
+                        <span class="demo-ai"><i class="ti ti-brain"></i> SowSmart</span>
+                        <p>"It sounds like <strong>Brown Planthopper</strong>. Here's how to check density and apply IPM-first treatment." → [Visual guide]</p>
+                    </div>
+                </div>
+                <div class="demo-card animate-slide-up">
+                    <div class="demo-input">
+                        <span class="demo-type"><i class="ti ti-message"></i> Text</span>
+                        <p>"Trời sắp mưa, tôi có nên phun thuốc?"<br><span class="demo-translate">It's going to rain — should I spray now?</span></p>
+                    </div>
+                    <div class="demo-output">
+                        <span class="demo-ai"><i class="ti ti-brain"></i> SowSmart</span>
+                        <p>"Rain forecast in 6 hours for your commune. <strong>Wait until after the rain</strong> — fungicide washes off within 2 hours of rainfall. Best window: tomorrow 6–8 AM."</p>
+                    </div>
+                </div>
+                <div class="demo-card animate-slide-up delay-1">
+                    <div class="demo-input">
+                        <span class="demo-type"><i class="ti ti-message"></i> Text</span>
+                        <p>"Có cách không dùng thuốc hóa học không?"<br><span class="demo-translate">Is there a way without chemicals?</span></p>
+                    </div>
+                    <div class="demo-output">
+                        <span class="demo-ai"><i class="ti ti-brain"></i> SowSmart</span>
+                        <p>"Yes! For mild rice blast: (1) Remove and burn affected leaves, (2) Reduce nitrogen fertilizer, (3) Apply <strong>Trichoderma-based biocontrol</strong>. Works best for early-stage infections."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Alternate Concepts -->
+    <section class="section section-alternates" id="alternates">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="ti ti-bulb"></i> More Ideas</span>
+                <h2 class="section-title">3 Alternate AI-for-Good Concepts</h2>
+                <p class="section-subtitle">Different problems. Same philosophy: AI that assists the underserved, not replaces the expert.</p>
+            </div>
+            <div class="alt-grid">
+                <div class="alt-card animate-slide-up">
+                    <div class="alt-header">
+                        <div class="alt-icon-wrap health"><i class="ti ti-stethoscope"></i></div>
+                        <div class="alt-domain">Public Health</div>
+                    </div>
+                    <h3>MedBridge</h3>
+                    <p class="alt-tagline">AI Triage for Rural Community Health Workers in Bangladesh</p>
+                    <div class="alt-body">
+                        <p><strong>Problem:</strong> 13,000 CHWs serving 65 million rural residents with only 6 weeks of training. Misreferrals waste money; missed referrals cost lives.</p>
+                        <p><strong>Solution:</strong> WhatsApp-based AI triage that guides CHWs through symptom assessment, suggests triage level, and generates referral notes in Bangla.</p>
+                        <p><strong>Key differentiator:</strong> Trained on Bangladesh-specific disease prevalence. Integrates with DHIS2. Every "emergency" recommendation requires CHW confirmation.</p>
+                    </div>
+                    <div class="alt-tags">
+                        <span><i class="ti ti-brand-whatsapp"></i> WhatsApp</span>
+                        <span><i class="ti ti-language"></i> Bangla</span>
+                        <span><i class="ti ti-cloud-off"></i> Offline SMS</span>
+                        <span><i class="ti ti-database"></i> DHIS2</span>
+                    </div>
+                </div>
+                <div class="alt-card animate-slide-up delay-1">
+                    <div class="alt-header">
+                        <div class="alt-icon-wrap legal"><i class="ti ti-gavel"></i></div>
+                        <div class="alt-domain">Labor Rights</div>
+                    </div>
+                    <h3>HaqBot</h3>
+                    <p class="alt-tagline">Multilingual Labor Rights for Migrant Workers in the Gulf</p>
+                    <div class="alt-body">
+                        <p><strong>Problem:</strong> 35 million South/SE Asian migrants in the Gulf face wage theft, contract violations, and unsafe conditions. They can't afford lawyers and don't speak Arabic.</p>
+                        <p><strong>Solution:</strong> WhatsApp chatbot answering labor rights questions in 8 languages, helping document violations, generating complaint letters, and connecting to free legal aid.</p>
+                        <p><strong>Key differentiator:</strong> Fine-tuned on Gulf labor laws (UAE, Saudi, Qatar). Human lawyers review all complaint filings before submission.</p>
+                    </div>
+                    <div class="alt-tags">
+                        <span><i class="ti ti-world"></i> 8 Languages</span>
+                        <span><i class="ti ti-scale"></i> Legal AI</span>
+                        <span><i class="ti ti-building"></i> Gulf States</span>
+                        <span><i class="ti ti-brand-whatsapp"></i> WhatsApp</span>
+                    </div>
+                </div>
+                <div class="alt-card animate-slide-up delay-2">
+                    <div class="alt-header">
+                        <div class="alt-icon-wrap climate"><i class="ti ti-ripple"></i></div>
+                        <div class="alt-domain">Climate Resilience</div>
+                    </div>
+                    <h3>FloodSense</h3>
+                    <p class="alt-tagline">Community Flood Early Warning for Manila's Urban Slums</p>
+                    <div class="alt-body">
+                        <p><strong>Problem:</strong> 4 million informal settlers in flood-prone areas. Government warnings are city-wide and arrive too late. Communities need hyper-local, real-time flood risk info.</p>
+                        <p><strong>Solution:</strong> Low-cost IoT water sensors ($15 each) + AI that predicts flood timing at the barangay level. Alerts via SMS and WhatsApp to community "flood captains."</p>
+                        <p><strong>Key differentiator:</strong> Hyper-local predictions, not city-wide. Community-owned sensors. 10 years of historical PAGASA flood data.</p>
+                    </div>
+                    <div class="alt-tags">
+                        <span><i class="ti ti-cpu"></i> IoT</span>
+                        <span><i class="ti ti-language"></i> Filipino</span>
+                        <span><i class="ti ti-message-dots"></i> SMS Alerts</span>
+                        <span><i class="ti ti-users"></i> Community-owned</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Roadmap -->
+    <section class="section section-roadmap" id="roadmap">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="ti ti-compass"></i> Future Vision</span>
+                <h2 class="section-title">From rice paddies to a platform</h2>
+            </div>
+            <div class="roadmap-timeline">
+                <div class="roadmap-item animate-slide-up">
+                    <div class="roadmap-year">Year 1</div>
+                    <h3>MVP + Pilot</h3>
+                    <ul>
+                        <li>15 rice diseases detection</li>
+                        <li>WhatsApp/Zalo/SMS/Voice</li>
+                        <li>Expert escalation</li>
+                        <li>Cooperative dashboard</li>
+                        <li>Weather alerts</li>
+                    </ul>
+                </div>
+                <div class="roadmap-item animate-slide-up delay-1">
+                    <div class="roadmap-year">Year 2</div>
+                    <h3>Scale + Expand</h3>
+                    <ul>
+                        <li>10,000+ farmers across Mekong Delta</li>
+                        <li>Pest detection (insects, rodents)</li>
+                        <li>On-device TFLite inference</li>
+                        <li>Soil health assessment</li>
+                        <li>Input supplier marketplace</li>
+                    </ul>
+                </div>
+                <div class="roadmap-item animate-slide-up delay-2">
+                    <div class="roadmap-year">Year 3</div>
+                    <h3>Platform + New Crops</h3>
+                    <ul>
+                        <li>Cassava, maize, coffee, pepper</li>
+                        <li>Expand to Myanmar, Laos, Philippines</li>
+                        <li>Satellite imagery integration</li>
+                        <li>Crop insurance partnerships</li>
+                        <li>Open-source model weights</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pitch Section -->
+    <section class="section section-pitch" id="pitch">
+        <div class="container">
+            <div class="pitch-card animate-fade-up">
+                <div class="pitch-label"><i class="ti ti-presentation"></i> 150-Word Funder Pitch</div>
+                <h2>The rice bowl of the world deserves a crop doctor that actually shows up.</h2>
+                <div class="pitch-body">
+                    <p>Twelve million rice farmers in the Mekong Delta lose up to 30% of their harvest to crop diseases every year — not because solutions don't exist, but because diagnosis takes two weeks and comes from a pesticide seller, not a scientist.</p>
+                    <p><strong>SowSmart changes that in 40 seconds.</strong> A farmer sends a photo of a sick rice plant via WhatsApp. Our AI — trained on 180,000 field images and validated at 93% accuracy — identifies the disease and returns a treatment plan in Vietnamese or Khmer, with visual action cards designed for low-literacy users. High-risk cases route to human agronomists. Follow-up reminders track recovery.</p>
+                    <p><strong>No app download. No typing. No internet required for cached guidance.</strong></p>
+                    <p>Our pilot with 100 farmers in An Giang Province showed <strong>22% yield improvement</strong> and <strong>35% pesticide reduction</strong> in one season. Each farmer saved an average of <strong>$96</strong>.</p>
+                </div>
+                <div class="pitch-ask">
+                    <span class="pitch-amount">We're seeking $150,000</span>
+                    <span>to scale to 2,000 farmers across Vietnam and Cambodia.</span>
+                </div>
+                <div class="pitch-tagline"><i class="ti ti-plant-2"></i> SowSmart: Snap. Diagnose. Save your harvest.</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <span class="logo-icon-wrap light"><i class="ti ti-plant-2"></i></span>
+                        <span class="logo-text">SowSmart</span>
+                    </div>
+                    <p>AI for social good. Built for the field, not the office.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-col">
+                        <h4>Project</h4>
+                        <a href="#problem">Problem</a>
+                        <a href="#solution">Solution</a>
+                        <a href="#features">Features</a>
+                        <a href="#tech">Tech Stack</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Impact</h4>
+                        <a href="#impact">Metrics</a>
+                        <a href="#pilot">Pilot Plan</a>
+                        <a href="#story">Lan's Story</a>
+                        <a href="#pitch">Pitch</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Explore</h4>
+                        <a href="#alternates">MedBridge</a>
+                        <a href="#alternates">HaqBot</a>
+                        <a href="#alternates">FloodSense</a>
+                        <a href="#roadmap">Roadmap</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>AI for Social Good · Mekong Delta · 2026</p>
+                <p class="footer-note">Statistics sourced from IRRI, FAO, World Bank, and Vietnam GSO.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
